@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@700&display=swap');
+
+.button {
+    display: flex;
+    flex-direction: row;
+    width: 220px;
+    height: 50px;
+    margin-bottom: 15px;
+    /* надо убрать margin*/
+    background: #FFFFFF;
+    box-shadow: 0px 3.68px 3.68px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+    transition: 0.2s;
+}
+
+.button a {
+    display: block;
+    text-decoration: none;
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: white;
+    text-align: center;
+    margin-right: 25px;
+}
+
+.button__background {
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 214px;
+    height: 44px;
+    margin: 2px 3px 4px 3px;
+    background: linear-gradient(180deg, #A0FAFA 0%, #35C8F7 16.67%, #07B9F1 43.23%, #5589D6 94.27%, #5D9CCA 100%);
+    box-shadow: 0px 2px 2px rgba(10, 89, 133, 0.75);
+    border-radius: 50px;
+    transition: 0.2s;
+}
+
+.button__background_blue {
+    background: linear-gradient(180deg, #A0FAFA 0%, #35C8F7 16.67%, #07B9F1 43.23%, #5589D6 94.27%, #5D9CCA 100%);
+    box-shadow: 0px 2px 2px rgba(10, 89, 133, 0.75);
+}
+
+.button__background_red {
+    background: linear-gradient(180deg, #FAA0A0 0%, #F74135 16.67%, #F33F33 43.23%, #CC524A 94.27%, #E16D6D 100%);
+    box-shadow: 0px 2px 2px rgba(133, 10, 10, 0.75);
+}
+
+.button__background_green {
+    background: linear-gradient(180deg, #CCEF82 0%, #469A29 94.27%, #7CBC55 100%);
+    box-shadow: 0px 2px 2px rgba(31, 94, 7, 0.75);
+}
+
+.button__img_left {
+    margin-top: 5px;
+    padding: auto;
+    margin-left: -3px;
+}
+
+.button__img_right {
+    height: 30px;
+    margin-top: 25.5px;
+}
+
+.button__background_blue:hover {
+    background: linear-gradient(180deg, #99f0f0 0%, #33c0ed 16.67%, #07b1e7 43.23%, #5283cc 94.27%, #5692be 100%);
+    box-shadow: 0px 1px 1px rgba(10, 89, 133, 0.75);
+    transition: 0.5s ease-in-out;
+}
+
+.button__background_red:hover {
+    background: linear-gradient(180deg, #f19b9b 0%, #ef3f34 16.67%, #ec3d31 43.23%, #c24e46 94.27%, #d66868 100%);
+    box-shadow: 0px 1px 1px rgba(133, 10, 10, 0.75);
+    transition: 0.5s ease-in-out;
+}
+
+.button__background_green:hover {
+    background: linear-gradient(180deg, #c3e47c 0%, #408e25 94.27%, #74b14e 100%);
+    box-shadow: 0px 1px 1px rgba(31, 94, 7, 0.75);
+    transition: 0.5s ease-in-out;
+}
+
+.button:hover {
+    box-shadow: 0px 1.68px 1.68px rgba(0, 0, 0, 0.25);
+    transition: 0.5s ease-in-out;
+}
